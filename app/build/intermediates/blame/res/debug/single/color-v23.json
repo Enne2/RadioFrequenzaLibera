@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/enne2/.android/build-cache/d95f26129f03e68fe4ffa853ff91f754e41c2c8f/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

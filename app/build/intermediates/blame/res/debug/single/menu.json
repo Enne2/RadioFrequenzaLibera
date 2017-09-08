@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/menu/navigation.xml",
+        "source": "/home/enne2/Android/RadioFrequenzaLibera/app/src/main/res/menu/navigation.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/enne2/Android/RadioFrequenzaLibera/app/src/main/res/menu/menu_main.xml"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/layout-v11/notification_template_big_media.xml"
+    }
+]

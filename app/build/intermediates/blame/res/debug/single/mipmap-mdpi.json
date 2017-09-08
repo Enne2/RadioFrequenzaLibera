@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/home/enne2/Android/RadioFrequenzaLibera/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/enne2/Android/RadioFrequenzaLibera/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/enne2/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_94022af8c24a8213cf8be0957b7f604e25cca091/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_3ecc5ce862b24d2551abc0dd22b76a608b417ebf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/.android/build-cache/e0b10f515915f3187c75cd548f230d9ef970df66/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c713d32e7638edc2a33e366018325e745796f822">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0c02dca5e7fe515e42940158dd23c3d908e61340/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/.android/build-cache/d95f26129f03e68fe4ffa853ff91f754e41c2c8f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_af2f86b71a4df70b6c190406832877ac489876f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/.android/build-cache/29786db112407bec9299ba69a14712a90b130ac8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eeeb344d1e255dde581e7190bf7dd44b3b5d159f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bfa316cc75a5a6f34a79db44c54aed7056f888f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/.android/build-cache/d96d4908dd1bbdf7e1ffb8c0579128c6d69eb201/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6879147b4f6572c03b4fbb1dd49cbc27ac0816e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.1/1eb6690b0c629d7000c77a72df5e822fb974f521/jsoup-1.8.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1eb6690b0c629d7000c77a72df5e822fb974f521">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsoup-1.8.1_5333e5774eaf3ecc572db2964b9e5b282fa35ddc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/.android/build-cache/4d6adf1c733ca98dcb0b3c89bec9a7912087537c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_687037f67526e52d2c1493cbdd4b35d8358eebfc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_8a36fe3a9cfcb4765380d2866ba9668356167fec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_79cf2ab1bf45021466731e27a68a7ca47f4ad950/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6d72264ee2ef4b230a3725f0af46d6de98d7e827">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0b19ab0b9b004f3da83d3508872ddc6c7859bcdc/classes.dex" />
+    </item>
+
+</items>
