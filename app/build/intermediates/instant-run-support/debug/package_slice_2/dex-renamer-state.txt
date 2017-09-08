@@ -1,4 +1,4 @@
-#Fri Sep 08 00:02:11 CEST 2017
+#Sat Sep 09 00:33:55 CEST 2017
 base.0=/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
 renamed.0=classes.dex
 file.0=/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex

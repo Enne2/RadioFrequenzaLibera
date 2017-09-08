@@ -1,4 +1,4 @@
-#Thu Sep 07 23:57:03 CEST 2017
+#Sat Sep 09 00:33:55 CEST 2017
 base.0=/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bfa316cc75a5a6f34a79db44c54aed7056f888f6
 renamed.1=classes2.dex
 renamed.0=classes.dex

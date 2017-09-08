@@ -1,16 +1,5 @@
 /*
 Matteo Benedetto Copyright 2017
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
  */
 
 package net.enne2.rfl.radiofrequenzalibera;
@@ -37,8 +26,14 @@ import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
+import android.widget.FrameLayout;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.RemoteViews;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -56,8 +51,10 @@ public class MainActivity extends AppCompatActivity {
     public StreamThread SThread;
     public Intent intent;
     public PendingIntent pIntent;
-
-
+    public LinearLayout homelayout;
+    public Button playhome;
+    public ImageButton playpush;
+    public View.OnTouchListener play, stop;
     private RecyclerView mRecyclerView;
     private ArticleAdapter mAdapter;
     private SwipeRefreshLayout mSwipeRefreshLayout;
@@ -74,14 +71,19 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
+                    mSwipeRefreshLayout.setVisibility(View.GONE);
+                    homelayout.setVisibility(View.VISIBLE);
                     return true;
                 case R.id.navigation_dashboard:
-                    SThread.run();
+                    mSwipeRefreshLayout.setVisibility(View.VISIBLE);
+                    homelayout.setVisibility(View.GONE);
+                    loadblog();
+                    /*SThread.run();
                     contentView.setTextViewText(R.id.text, "Caricamento...");
-                    mNotifyMgr.notify(001, mBuilder.build());
+                    */
                     return true;
                 case R.id.navigation_notifications:
-                    SThread.stop();
+                    //SThread.stop();
                     return true;
             }
             return false;
@@ -101,15 +103,39 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         mNotifyMgr = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         intent = new Intent(this, MainActivity.class);
         pIntent = PendingIntent.getActivity(this, (int) System.currentTimeMillis(), intent, 0);
-
         contentView = new RemoteViews(getPackageName(), R.layout.custom_push);
         contentView.setImageViewResource(R.id.image, R.mipmap.ic_launcher);
-        contentView.setImageViewResource(R.id.image2, R.drawable.ic_play_circle_outline_black_24dp);
+        contentView.setImageViewResource(R.id.image2, R.drawable.ic_uaofvv4txy);
         contentView.setTextViewText(R.id.title, "Radio Frequenza Libera");
         contentView.setTextViewText(R.id.text, "Format");
+       // contentView.setOnClickPendingIntent(R.id.playpush,);
+
+        play = new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                SThread.run();
+                playhome.setText("Stop");
+                playhome.setOnTouchListener(stop);
+
+                return false;
+            }
+        };
+        stop = new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                SThread.stop();
+                playhome.setText("Play");
+                playhome.setOnTouchListener(play);
+                return false;
+            }
+        };
+        playhome = (Button) findViewById(R.id.playhome);
+        playhome.setOnTouchListener(play);
 
         mBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.ic_uaofvv4txy)
@@ -140,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
         mRecyclerView.setHasFixedSize(true);
-
+        homelayout = (LinearLayout) findViewById(R.id.homelayout);
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipecontainer);
         mSwipeRefreshLayout.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimaryDark);
         mSwipeRefreshLayout.canChildScrollUp();
@@ -154,33 +180,36 @@ public class MainActivity extends AppCompatActivity {
                 mSwipeRefreshLayout.setRefreshing(true);
                 loadFeed();
 
+
             }
         });
 
-        if (!isNetworkAvailable()) {
 
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setMessage("Connessione non disponibile")
-                    .setTitle("Offline")
-                    .setCancelable(false)
-                    .setPositiveButton("OK",
-                            new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog,
-                                                    int id) {
-                                    finish();
-                                }
-                            });
-
-            AlertDialog alert = builder.create();
-            alert.show();
-
-        } else if (isNetworkAvailable()) {
-
-            loadFeed();
-        }
 
     }
+    public void loadblog(){
+        if (!isNetworkAvailable()) {
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Connessione non disponibile")
+                .setTitle("Offline")
+                .setCancelable(false)
+                .setPositiveButton("OK",
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog,
+                                                int id) {
+                                finish();
+                            }
+                        });
+
+        AlertDialog alert = builder.create();
+        alert.show();
+
+    } else if (isNetworkAvailable()) {
+
+        loadFeed();
+    }}
 
     public void loadFeed() {
 
@@ -241,7 +270,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             android.support.v7.app.AlertDialog alertDialog = new android.support.v7.app.AlertDialog.Builder(MainActivity.this).create();
             alertDialog.setTitle(R.string.app_name);
-            alertDialog.setMessage(Html.fromHtml(" <a href='http://github.com/prof18/RSS-Parser'>GitHub.</a>"));
+            alertDialog.setMessage(Html.fromHtml("https://github.com/Enne2/RadioFrequenzaLibera'>GitHub.</a>"));
             alertDialog.setButton(android.support.v7.app.AlertDialog.BUTTON_NEUTRAL, "OK",
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {

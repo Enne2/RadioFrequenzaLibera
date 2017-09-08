@@ -64,6 +64,10 @@
         "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/drawable/ic_import_contacts_black_24dp.xml",
+        "source": "/home/enne2/Android/RadioFrequenzaLibera/app/src/main/res/drawable/ic_import_contacts_black_24dp.xml"
+    },
+    {
         "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
         "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/drawable/notification_bg_low.xml"
     },
@@ -82,6 +86,10 @@
     {
         "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
         "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/drawable/ic_play_arrow_black_24dp.xml",
+        "source": "/home/enne2/Android/RadioFrequenzaLibera/app/src/main/res/drawable/ic_play_arrow_black_24dp.xml"
     },
     {
         "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
@@ -126,6 +134,10 @@
     {
         "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
         "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/drawable/ic_pause_black_24dp.xml",
+        "source": "/home/enne2/Android/RadioFrequenzaLibera/app/src/main/res/drawable/ic_pause_black_24dp.xml"
     },
     {
         "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/drawable/ic_stop_black_24dp.xml",

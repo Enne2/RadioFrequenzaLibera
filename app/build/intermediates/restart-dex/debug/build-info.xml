@@ -6,31 +6,46 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1504821730544"
+    timestamp="1504910033441"
     token="-8069332750683389959"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="226" />
+        duration="247" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="68" />
+        duration="26" />
     <task
         name="verifier"
-        duration="1" />
+        duration="3" />
 
+    <artifact
+        location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
     <artifact
         location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
+    <artifact
+        location="/home/enne2/Android/RadioFrequenzaLibera/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1504820299616"
+        timestamp="1504892383805"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
         <artifact
             location="/home/enne2/Android/RadioFrequenzaLibera/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
@@ -53,9 +68,6 @@
             location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
@@ -70,19 +82,23 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1504821422575"
+        timestamp="1504910033441"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/enne2/Android/RadioFrequenzaLibera/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1504821730544"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
         <artifact
             location="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="/home/enne2/Android/RadioFrequenzaLibera/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
