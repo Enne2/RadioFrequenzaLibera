@@ -80,6 +80,10 @@
         "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
+        "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/drawable/ic_timelapse_black_24dp.xml",
+        "source": "/home/enne2/Android/RadioFrequenzaLibera/app/src/main/res/drawable/ic_timelapse_black_24dp.xml"
+    },
+    {
         "merged": "/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/res/drawable/abc_vector_test.xml"
     },

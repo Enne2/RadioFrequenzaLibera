@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:3:5-49
 		INJECTED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest
 	android:name
 		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:5:22-76
 application
-ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:7:5-26:19
+ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:7:5-32:19
 MERGED from [com.android.support:design:25.3.1] /home/enne2/.android/build-cache/d95f26129f03e68fe4ffa853ff91f754e41c2c8f/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] /home/enne2/.android/build-cache/4d6adf1c733ca98dcb0b3c89bec9a7912087537c/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/enne2/.android/build-cache/4fb1f75845d7af5e17c56c5ad93da8c551f6aab7/output/AndroidManifest.xml:29:5-20
@@ -35,6 +35,7 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/enne2/.an
 MERGED from [com.android.support:support-core-ui:25.3.1] /home/enne2/.android/build-cache/ffa2c2f8f4c9211104c2aff539e1fcdc6e95e93a/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /home/enne2/.android/build-cache/65ba3c0a2664639d2285e1feb6694fcabdeeb1a6/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:cardview-v7:25.3.1] /home/enne2/.android/build-cache/29786db112407bec9299ba69a14712a90b130ac8/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/enne2/.android/build-cache/4f45590cfc17f2e7cb80cd6ba20dafc7ce6aa1bd/output/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -46,25 +47,39 @@ MERGED from [com.android.support:cardview-v7:25.3.1] /home/enne2/.android/build-
 	android:icon
 		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:14:9-40
 activity#net.enne2.rfl.radiofrequenzalibera.MainActivity
-ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:16:9-25:20
+ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:17:9-27:20
 	android:label
-		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:18:13-45
+		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:20:13-45
 	android:launchMode
+		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:21:13-48
+	android:configChanges
 		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:19:13-48
 	android:name
-		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:17:13-41
+		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:18:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:25:27-74
+receiver#net.enne2.rfl.radiofrequenzalibera.ControlBroadcastReceiver
+ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:28:9-29:50
+	android:launchMode
+		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:29:13-48
+	android:name
+		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:28:19-59
+service#net.enne2.rfl.radiofrequenzalibera.StreamIntentService
+ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:30:9-31:46
+	android:launchMode
+		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:31:13-44
+	android:name
+		ADDED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml:30:18-53
 uses-sdk
 INJECTED from /home/enne2/Android/RadioFrequenzaLibera/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] /home/enne2/.android/build-cache/d95f26129f03e68fe4ffa853ff91f754e41c2c8f/output/AndroidManifest.xml:21:5-23:62
@@ -81,6 +96,7 @@ MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/enne2/.android/bu
 MERGED from [com.android.support:support-core-ui:25.3.1] /home/enne2/.android/build-cache/ffa2c2f8f4c9211104c2aff539e1fcdc6e95e93a/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] /home/enne2/.android/build-cache/65ba3c0a2664639d2285e1feb6694fcabdeeb1a6/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:cardview-v7:25.3.1] /home/enne2/.android/build-cache/29786db112407bec9299ba69a14712a90b130ac8/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.volley:volley:1.0.0] /home/enne2/.android/build-cache/4f45590cfc17f2e7cb80cd6ba20dafc7ce6aa1bd/output/AndroidManifest.xml:7:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] /home/enne2/.android/build-cache/d95f26129f03e68fe4ffa853ff91f754e41c2c8f/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion

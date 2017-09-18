@@ -5,6 +5,7 @@ Matteo Benedetto Copyright 2017
 
 package net.enne2.rfl.radiofrequenzalibera;
 
+import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.AsyncTask;
@@ -17,27 +18,18 @@ import java.net.MalformedURLException;
  * Created by enne2 on 05/09/17.
  */
 
-public class StreamThread  implements Runnable {
+public class StreamThread implements Runnable {
     public LongOperation LOp;
-    private static MainActivity parent;
+    private static StreamService parent;
     boolean play = false;
     boolean loading = false;
-    public StreamThread(MainActivity parent) {
+    public StreamThread(StreamService parent) {
         this.parent = parent;
     }
-    public void toastIt(final String intext){
-        parent.runOnUiThread(new Runnable() {
-            public void run() {
-                Toast.makeText(parent.getBaseContext(), intext, Toast.LENGTH_LONG).show();
-                parent.mTextMessage.setText(intext);                       }
-        });
-    }
+
     public void run() {
         if(!play && !loading) {
-
-            parent.mNotifyMgr.notify(001, parent.mBuilder.build());
             loading = true;
-            toastIt("Caricamento...");
             LOp = new LongOperation();
             LOp.execute("");
         }
@@ -46,7 +38,6 @@ public class StreamThread  implements Runnable {
     public void stop(){
         if(!loading && play){
             LOp.mediaPlayer.stop();
-            toastIt("Stop");
             play=false;
         }
     }
@@ -68,11 +59,9 @@ public class StreamThread  implements Runnable {
             }
             catch (IOException e) {
                 e.printStackTrace();
-                toastIt("Errore di connessione!");
                 return "Error";
             }
             mediaPlayer.start();
-            toastIt("In riproduzione!");
             play = true;
             return "Executed";
         }

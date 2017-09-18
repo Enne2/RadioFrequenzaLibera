@@ -24,6 +24,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="net.enne2.rfl.radiofrequenzalibera.MainActivity"
+            android:configChanges="orientation"
             android:label="@string/app_name"
             android:launchMode="singleInstance" >
             <intent-filter>
@@ -32,6 +33,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver
+            android:name="net.enne2.rfl.radiofrequenzalibera.ControlBroadcastReceiver"
+            android:launchMode="singleInstance" />
+
+        <service
+            android:name="net.enne2.rfl.radiofrequenzalibera.StreamIntentService"
+            android:launchMode="singleTask" />
     </application>
 
 </manifest>

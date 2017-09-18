@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/enne2/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_3ecc5ce862b24d2551abc0dd22b76a608b417ebf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/enne2/.android/build-cache/e0b10f515915f3187c75cd548f230d9ef970df66/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -66,6 +57,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/enne2/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_3ecc5ce862b24d2551abc0dd22b76a608b417ebf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/enne2/.android/build-cache/4f45590cfc17f2e7cb80cd6ba20dafc7ce6aa1bd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8887948a361fdcf8213dd0770cfc7516329acff7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/enne2/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.1/1eb6690b0c629d7000c77a72df5e822fb974f521/jsoup-1.8.1.jar"
         jumboMode="true"
         optimize="true"
@@ -106,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6d72264ee2ef4b230a3725f0af46d6de98d7e827">
+        sha1="da01f117373d8224d9e3f501e8e8787d11ac7920">
         <dex dex="/home/enne2/Android/RadioFrequenzaLibera/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0b19ab0b9b004f3da83d3508872ddc6c7859bcdc/classes.dex" />
     </item>
 

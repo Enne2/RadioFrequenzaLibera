@@ -50,15 +50,36 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="64dp"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 app:srcCompat="@mipmap/ic_launcher" />
 
-            <Button
-                android:id="@+id/playhome"
+            <ImageButton
+                android:id="@+id/homeplay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Play" />
+                android:onClick="startService"
+                android:text="Avvia"
+                app:srcCompat="@drawable/ic_play_arrow_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/homestop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="stopService"
+                android:text="Arresta"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_stop_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/homeload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="stopService"
+                android:text="Arresta"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_timelapse_black_24dp" />
+
 
             <TextView
                 android:id="@+id/message"
